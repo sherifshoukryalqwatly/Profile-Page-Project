@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="head">
+        <div class="container">
+            <!-- Start Nav-Bar  -->
+            <div class="nav">
+                <div class="logo">
+                    <img src="imgs/Logo.png" alt="">
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Move&Shows</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Subscription</a></li>
+                    </ul>
+                </div>
+                <div class="search-not">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+            </div>
+            <!-- End Nav-Bar  -->
+            <div class="settings">
+                <a href="profile.html"><i class="fa-solid fa-angle-left"></i> Back</a>
+                <span>Account Setttings</span>
+                <h1>Edit Profile</h1>
+            </div>
+        </div>
+    </div>
+    <div class="edit-body">
+        <div class="container">
+            <form id="form" method="GET">
+                <div class="profile-image">
+                    <div id="edit-image" class="image"></div>
+                    <div class="upload-file">
+                        <p for="photo">Upload an image in JPG or PNG format with a max size of 25MB.</p>
+                        <input id="photo" type="file" name="photo">
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="input-section">
+                        <div class="lable-input">
+                            <label for="fname">First Name</label>
+                            <input id="fname" type="text" name="fname" placeholder="First Name">
+                            <span id="fname-error" class="error hide" >name is not valid</span>
+                        </div>
+                        <div class="lable-input">
+                            <label for="lname">Last Name</label>
+                            <input id="lname" type="text" name="lname" placeholder="Last Name">
+                            <span id="lname-error" class="error hide" >name is not valid</span>
+                        </div>
+                    </div>
+                    <div class="input-section">
+                        <div class="lable-input">
+                            <label for="phone">Phone</label>
+                            <input id="phone" type="phone" name="phone" placeholder="Phone">
+                            <span id="phone-error" class="error hide" >phone is not valid</span>
+                        </div>
+                        <div class="lable-input">
+                            <label for="pass">Password</label>
+                            <input id="pass" type="password" name="password" placeholder="Password">
+                        </div>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input id="update" type="submit" value="update">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="lists"> 
+                <div class="home">
+                    <h3 class="title">Home</h3>
+                    <ul>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Devices</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">FQA</a></li>
+                    </ul>
+                </div>
+                <div class="movies">
+                    <h3 class="title">Movies</h3>
+                    <ul>
+                        <li><a href="#">Gernes</a></li>
+                        <li><a href="#">Trending</a></li>
+                        <li><a href="#">New Release</a></li>
+                        <li><a href="#">Populer</a></li>
+                    </ul>
+                </div>
+                <div class="shows">
+                    <h3 class="title">Shows</h3>
+                    <ul>
+                        <li><a href="#">Gernes</a></li>
+                        <li><a href="#">Trending</a></li>
+                        <li><a href="#">New Release</a></li>
+                        <li><a href="#">Popular</a></li>
+                    </ul>
+                </div>
+                <div class="support">
+                    <h3 class="title">Support</h3>
+                    <ul>
+                        <li><a href="#">Contact US</a></li>
+                    </ul>
+                </div>
+                <div class="subscription">
+                    <h3 class="title">Subscription</h3>
+                    <ul>
+                        <li><a href="#">Plans</a></li>
+                        <li><a href="#">Features</a></li>
+                    </ul>
+                </div>
+                <div class="contact-with-us">
+                    <h3 class="title">Contact With US</h3>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>&copy;2025 I3y Sherif Shoukry</p>
+                <ul>
+                    <li>Termsof Use</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Policy</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="edit.js"></script>
+</body>
+</html>
