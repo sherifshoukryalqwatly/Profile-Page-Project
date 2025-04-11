@@ -223,11 +223,10 @@
     transition: 0.3s;
 }
 .body .section .videos .video:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .body .section .videos .video img {
-    max-width: 299px;
-    max-height: 168px;
+    width: 299px;
     border-radius: 20px;
 }
 .body .section .videos .video span {
